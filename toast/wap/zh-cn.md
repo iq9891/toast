@@ -3,7 +3,7 @@
 
 ## 基本用法
 
-<!-- [浏览器手机模式在线预览](https://output.jsbin.com/tisusuk) -->
+[浏览器手机模式在线预览](https://output.jsbin.com/qimiteg)
 
 <br>
 
@@ -16,7 +16,7 @@
 
 ## 成功用法
 
-<!-- [浏览器手机模式在线预览](https://output.jsbin.com/tisusuk) -->
+[浏览器手机模式在线预览](https://output.jsbin.com/kolasul)
 
 <br>
 
@@ -29,7 +29,7 @@
 
 ## 自定义图片用法
 
-<!-- [浏览器手机模式在线预览](https://output.jsbin.com/tisusuk) -->
+[浏览器手机模式在线预览](https://output.jsbin.com/rucuyum)
 
 <br>
 
@@ -44,7 +44,7 @@
 
 ## 自动关闭
 
-<!-- [浏览器手机模式在线预览](https://output.jsbin.com/tisusuk) -->
+[浏览器手机模式在线预览](https://output.jsbin.com/rurohuc)
 
 <br>
 
