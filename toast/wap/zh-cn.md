@@ -18,11 +18,13 @@
 
 [浏览器手机模式在线预览](https://output.jsbin.com/kolasul)
 
+> 失败(error)和成功(success)是内置的，使用 `icon` 字段即可
+
 <br>
 
 <p>
   <button @click="status2 = !status2">{{ status2 ? '隐藏' : '显示' }}</button>
-  <w-toast-wap v-show="status2" icon="error" content="确定退出吗"></w-toast-wap>
+  <w-toast-wap v-show="status2" icon="success" content="确定退出吗"></w-toast-wap>
 </p>
 <br>
 <br>
@@ -45,6 +47,8 @@
 ## 自动关闭
 
 [浏览器手机模式在线预览](https://output.jsbin.com/rurohuc)
+
+> 需要添加 `ref` ，然后利用 `$emit`。自定义图片需要添加 `slot="icon"` 。
 
 <br>
 
