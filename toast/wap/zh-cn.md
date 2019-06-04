@@ -22,7 +22,7 @@
 
 <p>
   <button @click="status2 = !status2">{{ status2 ? '隐藏' : '显示' }}</button>
-  <w-toast-wap v-show="status2" icon="logo-wta" content="确定退出吗"></w-toast-wap>
+  <w-toast-wap v-show="status2" icon="error" content="确定退出吗"></w-toast-wap>
 </p>
 <br>
 <br>
