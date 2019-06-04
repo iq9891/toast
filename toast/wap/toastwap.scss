@@ -3,7 +3,7 @@
 
 .wtoast-wap {
   @include radius(8px);
-  @include px2rem('padding', 34px 64px);
+  @include px2rem('padding', 34px 56px);
 
   position: fixed;
   background: rgba(0, 0, 0, 0.7);
@@ -18,7 +18,7 @@
   }
 
   &-text {
-    @include font(24px);
+    @include font(28px);
 
     font-family: 'PingFangSC-Medium';
     color: #fff;
@@ -28,11 +28,11 @@
   }
 
   &-icon {
-    @include px2rem('width', 72px);
+    @include px2rem('width', 68px);
 
     display: block;
     margin: 0 auto;
 
-    @include px2rem('margin-bottom', 34px);
+    @include px2rem('margin-bottom', 32px);
   }
 }

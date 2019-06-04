@@ -5,7 +5,7 @@
     <div class="wtoast-wap-icon" v-if="$slots.icon">
       <slot name="icon"></slot>
     </div>
-    <img :src="`https://static2.evente.cn/static/img/${icon}.png`" alt="icon" class="wtoast-wap-icon" v-else-if="icon">
+    <img :src="`https://static2.evente.cn/static/img/toast-${icon}.png`" alt="icon" class="wtoast-wap-icon" v-else-if="icon">
     <div class="wtoast-wap-text" v-if="meg">{{meg}}</div>
   </div>
 </template>
