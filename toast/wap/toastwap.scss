@@ -3,7 +3,7 @@
 
 .wtoast-wap {
   @include radius(8px);
-  @include px2rem('padding', 34px 56px);
+  @include px2rem('padding', 36px 56px);
 
   position: fixed;
   background: rgba(0, 0, 0, 0.7);
@@ -11,7 +11,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 50vw;
+  max-width: 75vw;
 
   &-big {
     @include px2rem('padding', 64px);
