@@ -61,6 +61,22 @@
 <br>
 <br>
 
+## 自动关闭定制成功或失败
+
+[浏览器手机模式在线预览](https://output.jsbin.com/rurohuc)
+
+> 方法新增 `icon` 参数，只能定制成功(success)|失败(error)。 
+
+<br>
+
+<p>
+  <button @click="autoClose1">{{ status4 ? '隐藏' : '显示' }}</button>
+  <w-toast-wap v-show="status4" content="确定退出吗" ref="toast4">
+  </w-toast-wap>
+</p>
+<br>
+<br>
+
 ## API
 
 ### 属性
@@ -80,13 +96,21 @@ export default {
       status1: false,
       status2: false,
       status3: false,
+      status4: false,
     };
   },
   methods: {
     autoClose() {
       this.$refs.toast3.$emit('show', {
         content: '这只是一个错误',
-        icon: 'error',
+        status: true,
+        duration: 1000,
+      });
+    },
+    autoClose1() {
+      this.$refs.toast4.$emit('show', {
+        content: '这只是一个错误',
+        icon: 'success',
         status: true,
         duration: 1000,
       });
