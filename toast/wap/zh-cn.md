@@ -63,7 +63,7 @@
 
 ## 自动关闭定制成功或失败
 
-[浏览器手机模式在线预览](https://output.jsbin.com/rurohuc)
+[浏览器手机模式在线预览](https://output.jsbin.com/yiyunil)
 
 > 方法新增 `icon` 参数，只能定制成功(success)|失败(error)。 
 
