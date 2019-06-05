@@ -32,7 +32,9 @@ export default {
     });
   },
   methods: {
-    childAction({ status = false, content = this.content, duration = this.duration, icon = this.icon }) {
+    childAction({
+      status = false, content = this.content, duration = this.duration, icon = this.icon,
+    }) {
       this.modalShow = status;
       this.meg = content;
       this.img = icon;
