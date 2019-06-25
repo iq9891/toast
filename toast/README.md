@@ -11,7 +11,7 @@ footer: MIT Licensed | Copyright © 2018-present 李梦龙
 ### 安装
 
 ``` bash
-yarn add @fe6/modal
+yarn add @fe6/toast
 ```
 
 ::: warning 注意
