@@ -14,7 +14,7 @@
   max-width: 50vw;
 
   &-big {
-    @include px2rem('padding', 64px);
+    @include px2rem('padding', 145px 64px);
   }
 
   &-text {
@@ -33,6 +33,6 @@
     display: block;
     margin: 0 auto;
 
-    @include px2rem('margin-bottom', 20px);
+    @include px2rem('margin-bottom', 32px);
   }
 }
