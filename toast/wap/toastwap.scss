@@ -14,25 +14,22 @@
   max-width: 50vw;
 
   &-big {
-    @include px2rem('padding', 60px 26px);
+    padding: 30px 13px;
   }
 
   &-text {
-    @include font(28px);
-
     font-family: 'PingFangSC-Medium';
     color: #fff;
     letter-spacing: 0;
     text-align: center;
     line-height: 1;
+    font-size: 14px;
   }
 
   &-icon {
-    @include px2rem('width', 68px);
-
     display: block;
     margin: 0 auto;
-
-    @include px2rem('margin-bottom', 32px);
+    width: 34px;
+    padding-bottom: 16px;
   }
 }
