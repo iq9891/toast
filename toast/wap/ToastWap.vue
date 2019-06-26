@@ -1,6 +1,6 @@
 <template>
   <div class="wtoast-wap" :class="{
-    ['wtoast-wap-big']: icon || $slots.icon,
+    ['wtoast-wap-big']: icon || $slots.icon || img,
   }" v-show="modalShow">
     <div class="wtoast-wap-icon" v-if="$slots.icon">
       <slot name="icon"></slot>
