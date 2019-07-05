@@ -3,7 +3,6 @@
 
 .wtoast-wap {
   @include radius(8px);
-  @include px2rem('padding', 36px 56px);
 
   position: fixed;
   background: rgba(0, 0, 0, 0.7);
@@ -14,6 +13,7 @@
   max-width: 70vw;
   min-width: 124px;
   box-sizing: border-box;
+  padding: 36px 56px;
 
   &-big {
     padding: 26px 13px;
