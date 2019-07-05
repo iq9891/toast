@@ -9,7 +9,7 @@
 
 <p>
   <button @click="status1 = !status1">{{ status1 ? '隐藏' : '显示' }}</button>
-  <w-toast-wap v-show="status1" content="确定退出吗"></w-toast-wap>
+  <w-toast-wap v-show="status1" content="这只是一个错误"></w-toast-wap>
 </p>
 <br>
 <br>
