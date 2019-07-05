@@ -86,6 +86,12 @@
 |content|内容|String|否|无|
 |icon|成功或者失败的图片名字，与 CDN 结合。可选值： success, error|String|否|无|
 
+### 方法
+
+|参数|说明|返回值|
+|---|----|---|
+|open|改变状态|无|
+|close|改变状态|无|
 
 <script>
 import WToastWap from './ToastWap';
@@ -105,6 +111,12 @@ export default {
         content: '这只是一个错误',
         status: true,
         duration: 1000,
+        open: () => {
+          console.log('打开')
+        },
+        close: () => {
+          console.log('关闭')
+        },
       });
     },
     autoClose1() {
@@ -113,6 +125,12 @@ export default {
         icon: 'success',
         status: true,
         duration: 1000,
+        open: () => {
+          console.log('打开')
+        },
+        close: () => {
+          console.log('关闭')
+        },
       });
     },
   },
