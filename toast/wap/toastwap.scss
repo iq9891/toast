@@ -13,9 +13,10 @@
   transform: translate(-50%, -50%);
   max-width: 50vw;
   min-width: 124px;
+  box-sizing: border-box;
 
   &-big {
-    padding: 30px 13px;
+    padding: 26px 13px;
   }
 
   &-text {
