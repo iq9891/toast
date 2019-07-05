@@ -33,14 +33,23 @@ export default {
   },
   methods: {
     childAction({
-      status = false, content = this.content, duration = this.duration, icon = this.icon,
+      status = false,
+      content = this.content,
+      duration = this.duration,
+      icon = this.icon,
+      open = () => {},
+      close = () => {},
     }) {
+      this.$emit('open');
+      open();
       this.modalShow = status;
       this.meg = content;
       this.img = icon;
       if (status) {
         setTimeout(() => {
           this.modalShow = false;
+          this.$emit('close');
+          close();
         }, duration);
       }
     },
